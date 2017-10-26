@@ -28,6 +28,7 @@ body {
 }
 
 .dropbtn {
+    float: center;
     background-color: #333;
     color: white;
     padding: 14px 16px;
@@ -68,7 +69,8 @@ body {
 }
 
 h1 {
-  color: #gray;
+  float: center;
+  color: #333;
 }
 
 h2 {
@@ -76,3 +78,7 @@ h2 {
   padding: 2%;
   color: #f2f2f2;
 }
+  p {
+    padding: 2%;
+    color: #f2f2f2;
+  }
