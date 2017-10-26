@@ -1,84 +1,148 @@
 <!doctype html>
 <html lag="en">
 <head>
+  <title>Historicizing deprecated tags and attributes</title>
   <meta charst="utf-8">
   <meta name="description" content="A website about deprecated HTML tags and attributes">
-  <meta name="author" content="Erik Carlson">
-  <title>Historicizing deprecated tags and attributes</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta name="author" content="Erik Carlson">
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative;
+  }
+  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #333;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #f2f2f2;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #333;}
+  #section4 {padding-top:50px;height:500px;color: #fff; background-color: #f2f2f2;}
+  #section5 {padding-top:50px;height:500px;color: #fff; background-color: #333;}
+  #section6 {padding-top:50px;height:500px;color: #fff; background-color: #f2f2f2;}
+  #section7 {padding-top:50px;height:500px;color: #fff; background-color: #333;}
+  #section8 {padding-top:50px;height:500px;color: #fff; background-color: #f2f2f2;}
+  #section9 {padding-top:50px;height:500px;color: #fff; background-color: #333;}
+  #section10 {padding-top:50px;height:500px;color: #fff; background-color: #f2f2f2;}
+  #section11 {padding-top:50px;height:500px;color: #fff; background-color: #333;}
+  #section12 {padding-top:50px;height:500px;color: #fff; background-color: #f2f2f2;}
+  #section13 {padding-top:50px;height:500px;color: #fff; background-color: #333;}
+  #section14 {padding-top:50px;height:500px;color: #fff; background-color: #f2f2f2;}
+  #section15 {padding-top:50px;height:500px;color: #fff; background-color: #333;}
+  #section16 {padding-top:50px;height:500px;color: #fff; background-color: #f2f2f2;}
+  #section17 {padding-top:50px;height:500px;color: #fff; background-color: #333;}
+  #section18 {padding-top:50px;height:500px;color: #fff; background-color: #f2f2f2;}
+  </style>
 </head>
-
-<body>
-
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 <h1>Historicizing Deprecated Tags and Attributes</h1>
-  <div class="topnav" id="myTopnav">
-    <a href="#introduction">Introduction</a>
-    <a href="#references">References</a>
-    <ul>
-      <li class="dropdown">
-          <a href="javascript:void(0)" class="dropbtn">Deprecated Tags and Attributes</a>
-        <div class="dropdown-content">
-          <a href="#">&ltapplet&gt</a>
-          <a href="#">&ltbasefont&gt</a>
-          <a href="#">&ltbig&gt</a>
-          <a href="#">&ltcenter&gt</a>
-          <a href="#">&ltdir&gt</a>
-          <a href="#">&ltfont&gt</a>
-          <a href="#">&ltframe&gt</a>
-          <a href="#">&ltframeset&gt</a>
-          <a href="#">&ltisindex&gt</a>
-          <a href="#">&ltlisting&gt</a>
-          <a href="#">&ltmenu&gt</a>
-          <a href="#">&ltnextid&gt</a>
-          <a href="#">&ltnoframes&gt</a>
-          <a href="#">&lts&gt</a>
-          <a href="#">&ltstrike&gt</a>
-          <a href="#">&lttt&gt</a>
-          <a href="#">&ltu&gt</a>
-          <a href="#">&ltxmp&gt</a>
-        </div>
-      </li>
-    </ul>
-    <br>
-<h2 align="center">Introduction</h2>
-<p align="center">Brief History of HTML</p>
-
-<h2 align="left">&ltapplet&gt</h2>
-<p align="left">text</p>
-<h2 align="center">&ltbasefont&gt</h2>
-<p align="center">text</p>
-<h2 align="right">&ltbig&gt</h2>
-<p align="right">text</p>
-<h2 align="center">&ltdir&gt</h2>
-<p align="center">text</p>
-<h2 align="left">&ltfont&gt</h2>
-<p align="left">text</p>
-<h2 align="center">&ltframe&gt</h2>
-<p align="center">text</p>
-<h2 align="right">&ltframeset&gt</h2>
-<p align="right">text</p>
-<h2 align="center">&ltisindex&gt</h2>
-<p align="center">text</p>
-<h2 align="left">&ltlisting&gt</h2>
-<p align="left">text</p>
-<h2 align="center">&ltmenu&gt</h2>
-<p align="center">text</p>
-<h2 align="right">&ltnextid&gt</h2>
-<p align="right">text</p>
-<h2 align="center">&ltnoframes&gt</h2>
-<p align="center">text</p>
-<h2 align="left">&lts&gt</h2>
-<p align="left">text</p>
-<h2 align="center">&ltstrike&gt</h2>
-<p align="center">text</p>
-<h2 align="right">&lttt&gt</h2>
-<p align="right">text</p>
-<h2 align="center">&ltu&gt</h2>
-<p align="center">text</p>
-<h2 align="left">&ltxmp&gt</h2>
-<p align="left">text</p>
-<h2 align="center">References</h2>
-<p>text</p>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#">&ltapplet&gt</a></li>
+          <li><a href="#">&ltbasefont&gt</a></li>
+          <li><a href="#">&ltbig&gt</a></li>
+          <li><a href="#">&ltcenter&gt</a></li>
+          <li><a href="#">&ltdir&gt</a></li>
+          <li><a href="#">&ltfont&gt</a></li>
+          <li><a href="#">&ltframe&gt</a></li>
+          <li><a href="#">&ltframeset&gt</a></li>
+          <li><a href="#">&ltisindex&gt</a></li>
+          <li><a href="#">&ltlisting&gt</a></li>
+          <li><a href="#">&ltmenu&gt</a></li>
+          <li><a href="#">&ltnextid&gt</a></li>
+          <li><a href="#">&ltnoframes&gt</a></li>
+          <li><a href="#">&lts&gt</a></li>
+          <li><a href="#">&ltstrike&gt</a></li>
+          <li><a href="#">&lttt&gt</a></li>
+          <li><a href="#">&ltu&gt</a></li>
+          <li><a href="#">&ltxmp&gt</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <div id="section1" class="container-fluid">
+      <h2 align="center">Introduction</h2>
+        <p align="center">Brief History of HTML</p>
+    </div>
+    <div id="section2" class="container-fluid">
+      <h2 align="left">&ltapplet&gt</h2>
+        <p align="left">text</p>
+    </div>
+      <div id="section3" class="container-fluid">
+        <h2 align="center">&ltbasefont&gt</h2>
+        <p align="center">text</p>
+    </div>
+    <div id="section4" class="container-fluid">
+      <h2 align="right">&ltbig&gt</h2>
+        <p align="right">text</p>
+    </div>
+    <div id="section5" class="container-fluid">
+      <h2 align="center">&ltdir&gt</h2>
+        <p align="center">text</p>
+    </div>
+    <div id="section6" class="container-fluid">
+      <h2 align="left">&ltfont&gt</h2>
+        <p align="left">text</p>
+    </div>
+    <div id="section7" class="container-fluid">
+      <h2 align="center">&ltframe&gt</h2>
+        <p align="center">text</p>
+    </div>
+    <div id="section8" class="container-fluid">
+      <h2 align="right">&ltframeset&gt</h2>
+        <p align="right">text</p>
+    </div>
+    <div id="section9" class="container-fluid">
+      <h2 align="center">&ltisindex&gt</h2>
+        <p align="center">text</p>
+    </div>
+    <div id="section10" class="container-fluid">
+      <h2 align="left">&ltlisting&gt</h2>
+        <p align="left">text</p>
+    </div>
+    <div id="section11" class="container-fluid">
+      <h2 align="center">&ltmenu&gt</h2>
+        <p align="center">text</p>
+    </div>
+    <div id="section12" class="container-fluid">
+      <h2 align="right">&ltnextid&gt</h2>
+        <p align="right">text</p>
+    </div>
+    <div id="section13" class="container-fluid">
+      <h2 align="center">&ltnoframes&gt</h2>
+        <p align="center">text</p>
+    </div>
+    <div id="section14" class="container-fluid">
+      <h2 align="left">&lts&gt</h2>
+        <p align="left">text</p>
+    </div>
+    <div id="section15" class="container-fluid">
+      <h2 align="center">&ltstrike&gt</h2>
+        <p align="center">text</p>
+    </div>
+    <div id="section16" class="container-fluid">
+      <h2 align="right">&lttt&gt</h2>
+        <p align="right">text</p>
+    </div>
+    <div id="section17" class="container-fluid">
+      <h2 align="center">&ltu&gt</h2>
+        <p align="center">text</p>
+    </div>
+    <div id="section18" class="container-fluid">
+      <h2 align="left">&ltxmp&gt</h2>
+        <p align="left">text</p>
+    </div>
+    <h2 align="center">References</h2>
+      <p>text</p>
 
 
 </body>
