@@ -40,3 +40,23 @@ blockquote {
 	font-variant: normal;
 	font-weight: 400;
 	line-height: 30px;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: white;
+    text-decoration: bold;
+}
+
+a:active {
+    color: white;
+    text-decoration: bold;
+}
