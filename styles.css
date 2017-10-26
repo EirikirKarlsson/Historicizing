@@ -57,7 +57,7 @@ body {
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #5f9ea0}
+.dropdown-content a:hover {background-color: #333}
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -72,6 +72,6 @@ h1 {
 }
 
 h2 {
-  background-color: #white;
+  background-color: #333;
   padding: 2%;
 }
