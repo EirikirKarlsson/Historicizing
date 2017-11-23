@@ -48,6 +48,10 @@ blockquote {
 	line-height: 30px;
 }
 
+text {
+  .tab-size: 40px
+}
+
 a:link {
     color: white;
 }
