@@ -76,12 +76,12 @@
           <blockquote>
             &lt;applet code=&quot;fish.class&quot; width=&quot;350&quot; height=&quot;350&quot;&gt;<br>
             Java applet that creates swimming fish.
-            &lt;applet/&gt;
+            &lt;/applet&gt;
           </blockquote>
           <p align="left">&lt;applet&gt; was deprecated in HTML 4. Its preferred replacement is &lt;object&gt;. Here's a sample:</p>
           <blockquote>
             &lt;object width=&quot;400&quot; height=&quot;400&quot;&gt; data=&quot;runninghorse.swf&quot;<br>
-            &lt;object/&gt;
+            &lt;/object&gt;
           </blockquote>
           <p>&lt;applet&gt; is no longer supported by HTML5 on the following browsers: Google Chrome, Microsoft Explorer, and Oasis. &lt;applet&gt; is still supported on Firefox and Safari.</p>
     </div>
@@ -93,7 +93,7 @@
 
               &lt;basefont face = &quot;Helvetica&quot; size=&quot;12 px&quot; color=&quot;black&quot; /&gt;<br>
 
-              &lt;head&gt;<br>
+              &lt;/head&gt;<br>
             </blockquote>
             <p align="left">&lt;basefont&gt; was deprecated in HTML 4.01 in favor of CSS&apos;s greater ability and specificity when formatting. The CSS replacement looks like this:</p>
             <blockquote>
@@ -108,7 +108,28 @@
     </div>
     <div id="section4" class="container-fluid">
       <h2 align="center">&lt;center&gt;</h2>
-        <p align="left">text</p>
+      <p align="left">&lt;center&gt; was an element that could contain block-level elements and &lt;p&gt;s &lpar;paragraphs.&rpar; Typically used within the &lt;body&gt; element&comma; everything contained within &lt;center&gt; was centered horizonally. Here is an example of how the code was used:</p>
+          <blockquote>
+            &lt;center&gt;All text within this tag will be centered horizonally in the browser page.<br>
+            &lt;/center&gt;<br>
+          </blockquote>
+          <p align="left">&lt;center&gt; was deprecated in HTML 4 in favor of the text-align property in CSS. Text-align allows formatting by paragraph and provides line by line flexibility of when used with the &lt;div&gt; tag.</p>
+          <blockquote>
+            In CSS&colon;
+            H1 &lbrace;<br>
+              tex-align&colon; center&semi;<br>
+            &rbrace;<br>
+            H2 &lbrace;<br>
+              tex-align&colon; right&semi;<br>
+            &rbrace;<br>
+            p &lbrace;<br>
+              tex-align&colon; left&semi;<br>
+            &rbrace;<br>
+            In HTML&colon;
+            &lt;h1 style=&quot;text-align&colon;center&semi;&quot;&gt;This heading is centered.&lt;/h1&rt;
+            &lt;div style=&quot;text-align&colon;center&semi;&quot;&gt;This text has been centered by a div element.&lt;/div&rt;<br>
+          </blockquote>
+          <p>&lt;center&gt; became obsolete in HTML5, but it is still supported by Goodle Chrome, Microsolf Explorer, Firefox, Safari, and Oasis.</p>
     </div>
     <div id="section5" class="container-fluid">
       <h2 align="center">&lt;dir&gt;</h2>
