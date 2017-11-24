@@ -48,8 +48,9 @@ blockquote {
 	line-height: 30px;
 }
 
-text {
-  .tab-size: 40px
+.hangingindent {
+  padding-left: 22px;
+  text-indent: -22px;
 }
 
 a:link {
