@@ -91,7 +91,7 @@
             <blockquote>
               &lt;head&gt;<br>
 
-              &lt;basefont face = &quot;Helvetica&quot; size=&quot;12 px&quot; color=&quot;black&quot; /&gt;<br>
+              &lt;basefont face&equals;&quot;Helvetica&quot; size&equals;&quot;12 px&quot; color&equals;&quot;black&quot; /&gt;<br>
 
               &lt;/head&gt;<br>
             </blockquote>
@@ -126,8 +126,8 @@
               text-align&colon; left&semi;<br>
             &rbrace;<br>
             In HTML&colon;<br>
-            &lt;h1 style=&quot;text-align&colon;center&semi;&quot;&gt;This heading is centered.&lt;/h1&gt;<br>
-            &lt;div style=&quot;text-align&colon;center&semi;&quot;&gt;This text has been centered by a div element.&lt;/div&gt;<br>
+            &lt;h1 style&equals;&quot;text-align&colon;center&semi;&quot;&gt;This heading is centered.&lt;/h1&gt;<br>
+            &lt;div style&equals;&quot;text-align&colon;center&semi;&quot;&gt;This text has been centered by a div element.&lt;/div&gt;<br>
           </blockquote>
           <p>&lt;center&gt; became obsolete in HTML5, but it is still supported by Google Chrome, Microsoft Explorer, Firefox, Safari, and Oasis.</p>
     </div>
@@ -155,10 +155,39 @@
           </blockquote>
           <p>&lt;dir&gt; is no longer supported by HTML5 but it is supported by Google Chrome, Microsoft Explorer, Firefox, Safari, and Oasis.</p>
     </div>
+
     <div id="section6" class="container-fluid">
       <h2 align="center">&lt;font&gt;</h2>
-        <p align="left">text</p>
+      <p align="left">&lt;font&gt; came into use with HTML 3.2. &lt;font&gt; was used to specify text size, face, and color. Here is an example of &lt;font&gt; usage:</p>
+          <blockquote>
+            &lt;font size&equals;&quot;2&quot; face&equals;&quot;Helvetica&quot; color&equals;&quot;cerulean&quot;&gt;<br>
+            Dit is tekst die is gewijzigd door een lettertypetag!<br>
+            &lt;/font&gt;<br>
+          </blockquote>
+
+          <p align="left">&lt;font&gt; deprecated in HTML 4 with the transition to the more flexible formatting capabilities offered by CSS. The following is a sample of font formatting from a CSS style sheet for a &lt;p&gt;&period; In CSS&comma; font formatting is created in modules for each type of text&comma; i&period;e&period;&comma; &lt;h1&gt;&comma; &lt;h2&gt;&comma;&lt;h3&gt;&comma; &lt;p&gt;&comma; and &lt;blockquote&gt;&period;
+          <blockquote>
+            p &lbrace;<br>
+            font-family&colon; Arial, Helvetica, sans-serif&semi;<br>
+            font-size&colon; 18px&semi;<br>
+            color&colon; white&semi;<br>
+            font-style&colon; &num;normal&semi;<br>
+            font-weight&colon; &num;500&semi;<br>
+            &rbrace;<br>
+          </blockquote>
+          <p>&lt;font&gt; </p>
+
+          p {
+          	font-family: Courier;
+          	font-size: 18px;
+            color: white;
+          	font-style: normal;
+          	font-variant: normal;
+          	font-weight: 500;
+          	line-height: 24px;
+          }
     </div>
+
     <div id="section7" class="container-fluid">
       <h2 align="center">&lt;frame&gt;&comma; &lt;frameset&gt;&comma; &amp; &lt;noframes&gt;</h2>
         <p align="left">text</p>
