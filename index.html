@@ -178,18 +178,20 @@
           <p>&lt;font&gt; was rendered obsolete in HTML5, but is still supported by Google Chrome, Microsoft Explorer, Firefox, Safari, and Oasis.</p>
     </div>
     <div id="section7" class="container-fluid">
-      <h2 align="center">&lt;frame&gt;&comma; &lt;frameset&gt;&comma; &amp; &lt;noframes&gt;</h2>
-      <p align="left">&lt;&gt; Here is an example of how the code was used:</p>
+      <h2 align="center"> &lt;frame&gt;&comma; &lt;frameset&gt;&comma; &amp; &lt;noframes&gt;</h2>
+      <p align="left">&lt;frameset&gt;&comma; developed to enable the divison of a browser window into sections&comma; or &lt;frame&gt;s&comma; so that each could load individual HTML documents&period; The appearance and operation of the tags are similar to the organization a table in rows and columns&period; &lt;noframes&gt; provided a message when a browser not support the use of a  &lt;frameset&gt;&period; Here is an example of how these tags were used&colon;</p>
 
           <blockquote>
-            &lt;&gt;<br>
-
-            &lt;basefont face = &quot;Helvetica&quot; size=&quot;12 px&quot; color=&quot;black&quot; /&gt;<br>
-
-            &lt;head&gt;<br>
+            &lt;frameset cols&equals;&quot;35&percnt;&comma; 50&percnt;&comma; 15&percnt;&comma;&gt;<br>
+            &lt;frame src&equals;&quot;frame&lowbar;lions&period;htm&quote;&gt;<br>
+            &lt;frame src&equals;&quot;frame&lowbar;tigers&period;htm&quote;&gt;<br>
+            &lt;frame src&equals;&quot;frame&lowbar;bears&period;htm&quote;&gt;<br>
+            &lt;noframes&gt;Your browser appears to be allergic to frames and refuses to display them&period; Terribly sorry&period;
+            &lt;/noframes&gt;
+            &lt;/frameset&gt;
           </blockquote>
 
-          <p align="left">&lt;&gt;</p>
+          <p align="left">&lt;frame&gt;&comma; and &lt;frameset&gt;&comma; deprecated because they caused trouble for hyperlinking and url navigation&period; The url directed the browser to the &lt;frameset&gt; index page without the ability to reliably specify the contents of each&lt;frame&gt;&period;</p>
 
           <blockquote>
             Body &lbrace;<br>
@@ -200,7 +202,7 @@
             &rbrace;<br>
           </blockquote>
 
-          <p>&lt;&gt; </p>
+          <p>&lt;frame&gt;&comma; &lt;frameset&gt;&comma; and &lt;noframes&gt; were added to the HTML code list with version 4&period;01&period; All skipped deprecation&comma; were designated obsolete in HTML5&comma; but are still supported by Google Chrome, Microsoft Explorer, Firefox, Safari, and Oasis.&period;</p>
     </div>
     <div id="section8" class="container-fluid">
       <h2 align="center">&lt;isindex&gt;</h2>
