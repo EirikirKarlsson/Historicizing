@@ -252,28 +252,27 @@
     </div>
     <div id="section10" class="container-fluid">
       <h2 align="center">&lt;menu&gt;</h2>
-      <p align="left">&lt;menu&gt; is another tag that has been in use since the beginning of HTML&period; Its original purpose from HTML 1 through HTML 3&period;2 was to Here is an example of how the code was used:</p>
-
+      <p align="left">&lt;menu&gt; is another tag that has been in use since the beginning of HTML&period; Its original purpose from HTML 1 through HTML 3&period;2 was to create list and context menus. (List menus appear at the top of the browser window and context menus appear after selecting a button.) In effect&comma; &lt;menu&gt;functions as an actionable unstructured list. &lt;menu&gt;depreated in HTML 4&period;01 but was reintroduced in HTML5 with a &quot;type&quote; attribute&period; Firefox is the only browser supporting this element&period; Here is an example of how the code is used from w3school.com 
+<a href="https://www.w3schools.com/tags/att_menu_type.asp">(HTML &lt;menu&gt; type attribute&comma; n&period;d&period;)&period;&colon;</a></p>
           <blockquote>
-            &lt;&gt;<br>
-
-            &lt;basefont face = &quot;Helvetica&quot; size=&quot;12 px&quot; color=&quot;black&quot; /&gt;<br>
-
-            &lt;menu&gt; was deprecated in HTML 4&period;01 and reintroduced in HTML1&period;1&period; Only Firefox supports its use&period;<br>
+            <div style="background:yellow;border:1px solid #cccccc;padding: 10px;" contextmenu="mymenu">
+              <p>Right-click inside this box to see the context menu!</p>
+            <menu type="context" id="mymenu">
+              <menuitem label="Refresh" onclick="window.location.reload();" icon="ico_reload.png">
+              </menuitem>
+                <menu label="Share on...">
+                  <menuitem label="Twitter" icon="ico_twitter.png"
+                  onclick="window.open('//twitter.com/intent/tweet?text='+window.location.href);">
+                  </menuitem>
+                  <menuitem label="Facebook" icon="ico_facebook.png"
+                  onclick="window.open('//facebook.com/sharer/sharer.php?u='+window.location.href);">
+                  </menuitem>
+                </menu>
+                <menuitem label="Email This Page"
+                onclick="window.location='mailto:?body='+window.location.href;">
+              </menuitem>
+            </menu>
           </blockquote>
-
-          <p align="left">&lt;&gt;</p>
-
-          <blockquote>
-            Body &lbrace;<br>
-            background&colon; white&semi;<br>
-            font-family&colon; Arial, Helvetica, sans-serif&semi;<br>
-            font-size&colon; 1em&semi;<br>
-            color&colon; &num;858585&semi;<br>
-            &rbrace;<br>
-          </blockquote>
-
-          <p>&lt;&gt; </p>
     </div>
     <div id="section11" class="container-fluid">
       <h2 align="center">&lt;nextid&gt;</h2>
@@ -320,6 +319,8 @@
 	        <a href="https://www.w3.org/TR/REC-html40-971218/">https://www.w3.org/TR/REC-html40-971218/</a></p>
         <p class="hangingindent">HTML 4.01 specification. (1999, December 24). Retrieved from
 	        <a href="https://www.w3.org/TR/html401/">https://www.w3.org/TR/html401/</a></p>
+          <p class="hangingindent">HTML &lt;menu&gt; type attribute. (n.d.). Retrieved from
+            <a href="https://www.w3schools.com/tags/att_menu_type.asp">https://www.w3schools.com/tags/att_menu_type.asp</a></p>
         <p class="hangingindent">HTML5. (2014, October 28). Retrieved from
 	        <a href="https://www.w3.org/TR/html5/">https://www.w3.org/TR/html5/</a></p>
           <p class="hangingindent">ISINDEX. (1993 November, 8). Retrieved from <a href="https://www.w3.org/MarkUp/HTMLPlus/htmlplus_51.html">https://www.w3.org/MarkUp/HTMLPlus/htmlplus_51.html</a></p>
