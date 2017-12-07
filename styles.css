@@ -45,6 +45,10 @@ blockquote {
 	line-height: 30px;
 }
 
+.blockquote-text {
+  width: 50%;
+  float: right;
+}
 
 .hangingindent {
   padding-left: 22px;
