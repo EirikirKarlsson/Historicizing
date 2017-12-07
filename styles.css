@@ -36,7 +36,7 @@ p {
 }
 
 blockquote {
-	font-family: Courier;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	font-size: 28px;
   color: white;
 	font-style: normal;
