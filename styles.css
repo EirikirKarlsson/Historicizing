@@ -45,6 +45,11 @@ blockquote {
 	line-height: 30px;
 }
 
+.block {
+    display: inline-block;
+    vertical-align:top;
+}
+
 .hangingindent {
   padding-left: 22px;
   text-indent: -22px;
