@@ -41,14 +41,11 @@ blockquote {
   color: white;
 	font-style: normal;
 	font-variant: normal;
+  display: inline-block;
 	font-weight: 500;
 	line-height: 30px;
 }
 
-.block {
-    display: inline-block;
-    vertical-align:top;
-}
 
 .hangingindent {
   padding-left: 22px;
