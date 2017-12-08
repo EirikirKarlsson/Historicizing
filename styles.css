@@ -22,7 +22,7 @@ h3 {
   font-size: 40px;
   color: white;
   font-weight: 500;
-  padding: 2%;
+  padding: 1%;
   align-content:center;
 }
 
@@ -37,7 +37,7 @@ p {
 }
 
 .left {
-  margin: 20px;
+  margin: 30px;
   width: 50%;
 }
 
