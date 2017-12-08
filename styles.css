@@ -49,6 +49,12 @@ blockquote {
 .blockquote-text {
   width: 50%;
   float: right;
+  line-height:15px;
+  padding: padding: 10px 0px 0px;
+}
+
+li:first-child {
+      margin-bottom: 0px;
 }
 
 .hangingindent {
@@ -72,13 +78,4 @@ a:visited {
 a:active {
     color: white;
     text-decoration: bold;
-}
-
-ul {
-    line-height:15px;
-    padding: padding: 10px 0px 0px;
-}
-
-  li:first-child {
-      margin-bottom: 0px;
 }
