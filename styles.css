@@ -36,10 +36,14 @@ p {
 	line-height: 30px;
 }
 
+.left {
+  margin: 20px;
+  width: 50%;
+}
+
 .center {
   margin: auto;
   width: 60%;
-  padding: 10px;
 }
 
 blockquote {
@@ -52,7 +56,7 @@ blockquote {
 }
 
 .blockquote-text {
-  width: 50%;
+  width: 40%;
   float: right;
 }
 
