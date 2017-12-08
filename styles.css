@@ -43,14 +43,16 @@ blockquote {
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	line-height: 30px;
 }
 
 .blockquote-text {
   width: 50%;
   float: right;
-  line-height:15px;
-  padding: 10px 5px 0px;
+}
+
+ul {
+    line-height:20px;
+    padding: padding: 10px 0px 0px;
 }
 
 li:first-child {
