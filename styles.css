@@ -73,3 +73,7 @@ a:active {
 ul {
     line-height:20px;
 }
+
+ul li { 
+    padding: 5px 0px;
+  }
