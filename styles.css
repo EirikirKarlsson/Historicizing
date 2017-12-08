@@ -50,7 +50,7 @@ blockquote {
   width: 50%;
   float: right;
   line-height:15px;
-  padding: 10px 0px 5px;
+  padding: 10px 5px 0px;
 }
 
 li:first-child {
